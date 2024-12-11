@@ -83,7 +83,7 @@ async function startGame(){
 async function inputValid(){
     let rad,kolone;
     let validInput = false;
-    while(validInput = false){
+    while(validInput == false){
     
         let pos = await rl.question("Hvor setter du merket ditt? ");
         if(pos.toLowerCase() == "r"){
